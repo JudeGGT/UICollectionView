@@ -28,6 +28,9 @@
 		8AB4F04B1E4810750041900A /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB4F0411E4810750041900A /* ViewController+MASAdditions.m */; };
 		8AB4F04E1E487E020041900A /* GPCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB4F04D1E487E020041900A /* GPCollectionViewCell.m */; };
 		8AB4F0511E487FC60041900A /* GPPhotoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB4F0501E487FC60041900A /* GPPhotoLayout.m */; };
+		8ACE5DBA1E49C92400A0FB90 /* GPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ACE5DB91E49C92400A0FB90 /* GPViewController.m */; };
+		8ACE5DBD1E49CE4B00A0FB90 /* GPPhotoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ACE5DBC1E49CE4B00A0FB90 /* GPPhotoModel.m */; };
+		8ACE5DC01E49D63D00A0FB90 /* GPPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ACE5DBF1E49D63D00A0FB90 /* GPPhotoCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +99,12 @@
 		8AB4F04D1E487E020041900A /* GPCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPCollectionViewCell.m; sourceTree = "<group>"; };
 		8AB4F04F1E487FC60041900A /* GPPhotoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPPhotoLayout.h; sourceTree = "<group>"; };
 		8AB4F0501E487FC60041900A /* GPPhotoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPPhotoLayout.m; sourceTree = "<group>"; };
+		8ACE5DB81E49C92400A0FB90 /* GPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPViewController.h; sourceTree = "<group>"; };
+		8ACE5DB91E49C92400A0FB90 /* GPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPViewController.m; sourceTree = "<group>"; };
+		8ACE5DBB1E49CE4B00A0FB90 /* GPPhotoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPPhotoModel.h; sourceTree = "<group>"; };
+		8ACE5DBC1E49CE4B00A0FB90 /* GPPhotoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPPhotoModel.m; sourceTree = "<group>"; };
+		8ACE5DBE1E49D63D00A0FB90 /* GPPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPPhotoCell.h; sourceTree = "<group>"; };
+		8ACE5DBF1E49D63D00A0FB90 /* GPPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPPhotoCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +168,12 @@
 				8A65E2201E45C8D600AF9669 /* GPLineLayout.m */,
 				8A65E21C1E45B31C00AF9669 /* GPWaterLayout.h */,
 				8A65E21D1E45B31C00AF9669 /* GPWaterLayout.m */,
+				8ACE5DB81E49C92400A0FB90 /* GPViewController.h */,
+				8ACE5DB91E49C92400A0FB90 /* GPViewController.m */,
+				8ACE5DBB1E49CE4B00A0FB90 /* GPPhotoModel.h */,
+				8ACE5DBC1E49CE4B00A0FB90 /* GPPhotoModel.m */,
+				8ACE5DBE1E49D63D00A0FB90 /* GPPhotoCell.h */,
+				8ACE5DBF1E49D63D00A0FB90 /* GPPhotoCell.m */,
 				8A65E1F21E456E4200AF9669 /* Assets.xcassets */,
 				8A65E1F41E456E4200AF9669 /* LaunchScreen.storyboard */,
 				8A65E1F71E456E4200AF9669 /* Info.plist */,
@@ -363,6 +378,7 @@
 				8AB4F0471E4810750041900A /* MASViewConstraint.m in Sources */,
 				8AB4F0511E487FC60041900A /* GPPhotoLayout.m in Sources */,
 				8A65E1EB1E456E4100AF9669 /* AppDelegate.m in Sources */,
+				8ACE5DBD1E49CE4B00A0FB90 /* GPPhotoModel.m in Sources */,
 				8A65E21E1E45B31C00AF9669 /* GPWaterLayout.m in Sources */,
 				8A65E1E81E456E4100AF9669 /* main.m in Sources */,
 				8AB4F04A1E4810750041900A /* View+MASAdditions.m in Sources */,
@@ -371,8 +387,10 @@
 				8AB4F0441E4810750041900A /* MASConstraintMaker.m in Sources */,
 				8AB4F0481E4810750041900A /* NSArray+MASAdditions.m in Sources */,
 				8AB4F04B1E4810750041900A /* ViewController+MASAdditions.m in Sources */,
+				8ACE5DBA1E49C92400A0FB90 /* GPViewController.m in Sources */,
 				8AB4F0431E4810750041900A /* MASConstraint.m in Sources */,
 				8AB4F0451E4810750041900A /* MASLayoutConstraint.m in Sources */,
+				8ACE5DC01E49D63D00A0FB90 /* GPPhotoCell.m in Sources */,
 				8A65E2211E45C8D600AF9669 /* GPLineLayout.m in Sources */,
 				8AB4F04E1E487E020041900A /* GPCollectionViewCell.m in Sources */,
 			);
