@@ -8,6 +8,7 @@
 
 #import "GPPhotoCell.h"
 #import "Masonry.h"
+#import "UIImageView+WebCache.h"
 
 @interface GPPhotoCell ()
 
@@ -47,15 +48,7 @@
     
     _url = url;
     
-    NSURLSession *session = [NSURLSession sharedSession];
-    NSURLSessionTask *task = [session dataTaskWithURL:[NSURL URLWithString:url] completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
-        UIImage *image = [UIImage imageWithData:data];
-        dispatch_async(dispatch_get_main_queue(), ^{
-            self.imgView.image = image;
-        });
-    }];
-    
-    [task resume];
+    [self.imgView sd_setImageWithURL:[NSURL URLWithString:url]];
 }
 
 @end

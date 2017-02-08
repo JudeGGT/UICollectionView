@@ -24,6 +24,15 @@
     return self;
 }
 
+- (void)setValue:(id)value forKey:(NSString *)key {
+    
+    if ([key isEqualToString:@"imageUrl"]) {
+        value = [NSString stringWithFormat:@"http://www.id-bear.com/images%@", value];
+    }
+    
+    [super setValue:value forKey:key];
+}
+
 - (void)setValue:(id)value forUndefinedKey:(NSString *)key {
     
     

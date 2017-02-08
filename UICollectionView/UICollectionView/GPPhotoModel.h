@@ -10,7 +10,7 @@
 
 @interface GPPhotoModel : NSObject
 
-@property (nonatomic, copy) NSString *imageSourceUrl; /**< 图片链接 */
+@property (nonatomic, copy) NSString *imageUrl; /**< 图片链接 */
 @property (nonatomic, assign) CGFloat originalHeight; /**< 图片高度 */
 @property (nonatomic, assign) CGFloat originalWidth; /**< 图片宽度 */
 
