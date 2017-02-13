@@ -11,7 +11,7 @@
 @interface GPWaterLayout ()
 
 @property (nonatomic, strong) NSMutableDictionary *minYDict; /**< 存放Y最小值 */
-@property (nonatomic, strong) NSArray *attributesArray;
+@property (nonatomic, strong) NSArray *attributesArray; /**< 属性数组 */
 
 @end
 

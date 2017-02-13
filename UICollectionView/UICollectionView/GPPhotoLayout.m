@@ -19,6 +19,11 @@ static NSUInteger itemWH = 100;
     return YES;
 }
 
+/**
+ 设置CollectionView的滚动范围
+
+ @return 滚动范围
+ */
 - (CGSize)collectionViewContentSize {
     
     NSInteger sectionCount = [self.collectionView numberOfSections] - 1;
@@ -32,7 +37,9 @@ static NSUInteger itemWH = 100;
     return CGSizeMake(0, maxY);
 }
 
-
+/**
+ 设置每个Item的属性
+ */
 - (UICollectionViewLayoutAttributes *)layoutAttributesForItemAtIndexPath:(NSIndexPath *)indexPath {
     
     UICollectionViewLayoutAttributes *attributes = [UICollectionViewLayoutAttributes layoutAttributesForCellWithIndexPath:indexPath];
@@ -66,6 +73,9 @@ static NSUInteger itemWH = 100;
     return attributes;
 }
 
+/**
+ 返回属性数组
+ */
 - (NSArray *)layoutAttributesForElementsInRect:(CGRect)rect
 {
     NSMutableArray *array = [NSMutableArray array];

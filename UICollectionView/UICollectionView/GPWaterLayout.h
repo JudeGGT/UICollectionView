@@ -12,6 +12,14 @@
 
 @protocol GPWaterLayoutDelegate <NSObject>
 
+/**
+ 设置每个Item的高度
+
+ @param layout 布局约束
+ @param width Item的宽度
+ @param indexPath indexPath
+ @return Item的高度
+ */
 - (CGFloat)collectionViewLayout:(GPWaterLayout *)layout withWidth:(CGFloat)width andIndex:(NSIndexPath *)indexPath;
 
 @end
